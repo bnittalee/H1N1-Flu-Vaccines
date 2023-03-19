@@ -69,9 +69,9 @@ For additional info, contact Brittney Nitta-Lee at [bnittalee@gmail.com](mailto:
 ├── .ipynb_checkpoints/
 ├── Data
 ├── Images
-├── Predicting Flu Vaccine Compliance.ipynb
-├── README.md
-├── notebook.pdf
-├── presentation.pdf
-└── requirements.txt
+├── PDFS
+├── .DS_Store
+├── .gitattributes
+├── Notebook.ipynb
+└── README.md
 ```
