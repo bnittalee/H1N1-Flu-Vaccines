@@ -1,4 +1,4 @@
-## Developing and Comparing Machine Learning Models for Predicting Vaccine Distribution Likelihood
+## Developing and Comparing Machine Learning Models for Predicting Flu Vaccine Likelihood
 <img src="https://github.com/bnittalee/H1N1-Flu-Vaccines/blob/main/IMAGES/cdc-IFKv3LESkVg-unsplash.jpg" width="1000">
 By Brittney Nitta-Lee
 
