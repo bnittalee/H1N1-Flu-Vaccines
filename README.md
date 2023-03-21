@@ -34,7 +34,7 @@ On the other hand, some features have weak negative correlations with each other
 
 Overall, the correlation matrix helps to identify which features may be most important in predicting whether or not someone gets the flu vaccine.
 
-# Reccomendations 
+# Recomendations 
 Based on the feature importance results, the top three most important features for predicting whether someone gets the seasonal flu vaccine are:
 
 1. opinion_seas_vacc_effective
