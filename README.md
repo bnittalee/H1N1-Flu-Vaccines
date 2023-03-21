@@ -35,24 +35,17 @@ On the other hand, some features have weak negative correlations with each other
 Overall, the correlation matrix helps to identify which features may be most important in predicting whether or not someone gets the flu vaccine.
 
 # Reccomendations 
-According to the correlations of those who did not receive the vaccine, here are the following features of those did not recieve the vaccine.
+Based on the feature importance results, the top three most important features for predicting whether someone gets the seasonal flu vaccine are:
 
-1. Individuals without health insurance.
-2. Those who are employed.
-3. People who do not use antiviral medications.
-4. People who do not avoid contact with others who have flu-like symptoms.
-5. Those who do not wear face masks.
-6. People who do not frequently wash their hands.
-7. Individuals who do not avoid large gatherings.
-8. People who do not avoid going out of their homes.
-9. Those who do not avoid touching their faces.
-10. People whose doctor does not recommend the seasonal vaccine.
-11. Individuals who do not have a chronic medical condition.
-12. Health workers.
-13. People who believe the vaccine is less effective.
-14. Individuals who perceive their risk of getting the flu as lower.
-15. People who believe that the vaccine can cause sickness.
-16. Households with fewer adults and more children.
+1. opinion_seas_vacc_effective
+2. doctor_recc_seasonal
+3. opinion_seas_risk
+
+Therefore, one recommendation would be to focus on improving people's perception of the effectiveness of the vaccine and increasing recommendations from doctors. This could involve public health campaigns and education initiatives to better inform people about the benefits of getting vaccinated and addressing common misconceptions or concerns.
+
+Additionally, the model suggests that age and health worker status are also important factors to consider. Therefore, targeted outreach to older adults and healthcare professionals may also be effective in increasing vaccination rates.
+
+Finally, it's worth noting that some of the other features had very low importance in the model, such as employment status and behavioral habits. While these factors may still be important for individual decision-making, they may not have as much impact on whether someone actually gets vaccinated. Therefore, resources and efforts may be better spent on targeting the factors with higher importance.
 
 # Limitations and Next Steps 
 Data collection was conducted through telephone surveys and could include, limited access to certain populations, non-reponse bias, inaccurate responses and exclusion of non-English speakers. Collecting data through only telephone surveys can limit the sample size and other methods of data collection may need to be considered to minimize these limitations.
